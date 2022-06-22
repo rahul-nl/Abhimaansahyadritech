@@ -3,9 +3,18 @@
 
 *{
     font-family: 'Poppins', sans-serif;
-    overflow: visible;
+    
 }
 
+body::-webkit-scrollbar {
+    display: none;
+  }
+  
+  /* Hide scrollbar for IE, Edge and Firefox */
+  body {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
 
 .header{
     background: rgb(11,0,195);
